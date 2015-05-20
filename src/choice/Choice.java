@@ -57,11 +57,12 @@ public class Choice {
 		Scanner sc = new Scanner(System.in);
 		do {
 			try {
-				number = Integer.parseInt(sc.next());
+				number = sc.nextInt();
 				isAccepted = true;
 			} catch (Exception e) {
 				isAccepted = false;
 				System.out.println("Please enter a valid whole number");
+				sc.nextLine();
 			}
 		} while (!isAccepted);
 		
