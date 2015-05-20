@@ -41,6 +41,10 @@ public class Choice {
 			System.out.println("Invalid answer, enter a valid answer");
 		}
 	}
+	
+	public static int makeChoice(int amountOfChoice) {
+		return makeChoice(1, amountOfChoice);
+	}
 
 	public static int askAndMakeChoice(String... questions) {
 		askChoice(questions);
