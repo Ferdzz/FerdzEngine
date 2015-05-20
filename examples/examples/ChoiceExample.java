@@ -11,8 +11,10 @@ public class ChoiceExample {
 			break;
 		case 2:
 			System.out.println("You kicked the apple, it fell down the stairs");
+			break;
 		case 3:
 			System.out.println("You punched it in the groin. Sadly, apples have no groin, therefore it had no effect");
+			break;
 		}
 	}
 }
